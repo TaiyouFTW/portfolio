@@ -1,6 +1,14 @@
 .not-found {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    padding-top: 50px;
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 64px);
+    overflow: hidden;
+}
+
+.w-custom {
+    max-width: 1080px;
+    width: 100%;
 }

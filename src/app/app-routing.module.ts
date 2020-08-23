@@ -8,10 +8,6 @@ const routes: Routes = [
     redirectTo: 'hero'
   },
   {
-    path: 'hero',
-    loadChildren: () => import('./heroes/heroes.module').then(m => m.HeroesModule)
-  },
-  {
     path: '404',
     loadChildren: () => import('./status-code/status-code.module').then(m => m.StatusCodeModule)
   },
