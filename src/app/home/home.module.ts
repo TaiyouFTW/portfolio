@@ -11,10 +11,11 @@ import { fas } from '@fortawesome/free-solid-svg-icons';
 import { HomeRoutingModule } from './home-routing.module';
 import { MainComponent } from './main/main.component';
 import { PersonalStatsComponent } from './components/personal-stats/personal-stats.component';
+import { WorkStatsComponent } from './components/work-stats/work-stats.component';
 
 
 @NgModule({
-  declarations: [MainComponent, PersonalStatsComponent],
+  declarations: [MainComponent, PersonalStatsComponent, WorkStatsComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
