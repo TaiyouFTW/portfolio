@@ -3,9 +3,10 @@ import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  { path: '',
+  {
+    path: '',
     pathMatch: 'full',
-    redirectTo: 'hero'
+    loadChildren: () => import('./home/home.module').then(m => m.HomeModule)
   },
   {
     path: '404',
