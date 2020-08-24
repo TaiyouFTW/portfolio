@@ -12,10 +12,11 @@ import { HomeRoutingModule } from './home-routing.module';
 import { MainComponent } from './main/main.component';
 import { PersonalStatsComponent } from './components/personal-stats/personal-stats.component';
 import { WorkStatsComponent } from './components/work-stats/work-stats.component';
+import { EducationStatsComponent } from './components/education-stats/education-stats.component';
 
 
 @NgModule({
-  declarations: [MainComponent, PersonalStatsComponent, WorkStatsComponent],
+  declarations: [MainComponent, PersonalStatsComponent, WorkStatsComponent, EducationStatsComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,
