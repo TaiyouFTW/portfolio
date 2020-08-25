@@ -13,10 +13,11 @@ import { MainComponent } from './main/main.component';
 import { PersonalStatsComponent } from './components/personal-stats/personal-stats.component';
 import { WorkStatsComponent } from './components/work-stats/work-stats.component';
 import { EducationStatsComponent } from './components/education-stats/education-stats.component';
+import { TechStatsComponent } from './components/tech-stats/tech-stats.component';
 
 
 @NgModule({
-  declarations: [MainComponent, PersonalStatsComponent, WorkStatsComponent, EducationStatsComponent],
+  declarations: [MainComponent, PersonalStatsComponent, WorkStatsComponent, EducationStatsComponent, TechStatsComponent],
   imports: [
     CommonModule,
     HomeRoutingModule,

@@ -72,3 +72,34 @@ body {
 .cursor {
     cursor: pointer;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: bold !important;
+    font-family: Candara, Roboto, sans-serif !important;
+    font: 700 20px/32px Candara, Roboto, sans-serif !important;
+}
+
+h2.mb-3 {
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.color-red {
+    color: #dd3c3c;
+}
+
+.progress {
+    background-color: #e8e8e8;
+}
+
+.progress-bar {
+    background-color: #dd3c3c;
+}
+
+.details {
+    font-size: 14px !important;
+}

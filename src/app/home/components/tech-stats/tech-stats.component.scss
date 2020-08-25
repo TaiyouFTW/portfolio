@@ -1,0 +1,19 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: -4px;
+    margin-right: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -0.7em;
+}
+
+li::before {
+    content: "\002022";
+    color: #dd3c3c; /* or whatever color you prefer */
+    padding-right:7px;
+}
