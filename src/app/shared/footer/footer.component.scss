@@ -1,4 +1,4 @@
-span{
+span {
     font-size: 14px;
 }
 
@@ -7,9 +7,13 @@ span{
 }
 
 .brown {
-    color: #c1542a
+    color: #c1542a;
 }
 
 .mat-toolbar {
     height: 64px;
+}
+
+.spacer {
+    flex: 1 1 auto;
 }

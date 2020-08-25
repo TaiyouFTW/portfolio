@@ -8,6 +8,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 // Font Awesome imports
 import { FontAwesomeModule, FaIconLibrary  } from '@fortawesome/angular-fontawesome';
 import { faSpinner, faCoffee, faHeart } from '@fortawesome/free-solid-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 // Components
 import { HeaderComponent } from './header/header.component';
@@ -38,6 +39,6 @@ const components = [
 export class SharedModule {
   constructor(library: FaIconLibrary) {
     // Add an icon to the library for convenient access in other components
-    library.addIcons(faSpinner, faCoffee, faHeart);
+    library.addIcons(faSpinner, faCoffee, faHeart, faGithub);
   }
  }
