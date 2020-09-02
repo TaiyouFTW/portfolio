@@ -15,6 +15,10 @@
         {
             "name": "feature/jobDescription",
             "base": "develop"
+        },
+        {
+            "name": "feature/footer",
+            "base": "develop"
         }
     ]
 }
