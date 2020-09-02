@@ -3,6 +3,10 @@
         {
             "name": "feature/home",
             "base": "develop"
+        },
+        {
+            "name": "feature/imagePosition",
+            "base": "develop"
         }
     ]
 }
