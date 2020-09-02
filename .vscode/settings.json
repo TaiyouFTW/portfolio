@@ -11,6 +11,10 @@
         {
             "name": "feature/personalStats",
             "base": "develop"
+        },
+        {
+            "name": "feature/jobDescription",
+            "base": "develop"
         }
     ]
 }
