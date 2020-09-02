@@ -19,6 +19,10 @@
         {
             "name": "feature/footer",
             "base": "develop"
+        },
+        {
+            "name": "feature/spanishProgress",
+            "base": "develop"
         }
     ]
 }
