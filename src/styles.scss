@@ -1,9 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
-
-$light: #e6ecf0;
-$medium: #f4f4f4;
-$grey: #646464;
-$dark: #3c3b3b;
+@import "./colors.scss";
 
 html,
 body {
@@ -25,4 +21,27 @@ h6 {
   font-family: "Raleway", sans-serif;
   color: $dark;
   font-weight: bold;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #b4b4b4;
+  }
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: #b4b4b4;
+  }
+}
+
+.mat-tab-header {
+  border-bottom: 0;
 }
