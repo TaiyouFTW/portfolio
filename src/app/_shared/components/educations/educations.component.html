@@ -1,0 +1,11 @@
+<h3>Education</h3>
+<mat-divider></mat-divider>
+<div class="container-fluid">
+    <div class="row" *ngFor="let education of educations">
+        <div class="col-12 mt-5">
+            <h5>{{education.course}}</h5>
+            <h6>{{education.institution}} {{education.startDate | date:'yyyy'}} - {{education.untilNow ? 'Present' : education.endDate | date:'yyyy'}}</h6>
+            <p class="ms-3">{{education.description}}</p>
+        </div>
+    </div>
+</div>
