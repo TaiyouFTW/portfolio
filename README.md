@@ -4,11 +4,12 @@ This project was created to optimize portfolio/curriculum creation time.
 
 ## How use
 
-Clone the repository, update the file resume.json in src/assets run `ng serve` and go to `http://localhost:4200/pdf` click on button generate pdf and update the file resume.pdf in src/assets.
+Clone the repository and update the file `resume.json` in `src/assets`.
+Run `ng serve` and go to `http://localhost:4200/pdf` visualize the downloadable page and click on button `generate pdf` and update the file `resume.pdf` in `src/assets`.
 
 ## Change color
 
-You can change easily all colors in colors.scss.
+You can change easily all colors in `colors.scss`.
 
 ## Development server
 
