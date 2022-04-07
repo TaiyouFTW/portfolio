@@ -1,6 +1,14 @@
 # portfolio
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+This project was created to optimize time creating portfolios/resume.
+
+## How use
+
+Clone the repository, update the file resume.json in src/assets run `ng serve` and go to `http://localhost:4200/pdf` click on button generate pdf and update the file resume.pdf in src/assets.
+
+## Change color
+
+You can change easily all colors in colors.scss.
 
 ## Development server
 
