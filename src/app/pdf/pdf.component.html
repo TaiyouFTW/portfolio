@@ -7,7 +7,10 @@
         <div class="col-12 text-center">
             <h1>{{person.name}}</h1>
             <h5>{{person.role}} since {{since | date: 'yyyy'}}</h5>
-            <p class="mt-4" *ngIf="person.phone != '' || person.email != ''">{{person.phone}} {{person.email}}</p>
+            <div class="d-inline-flex mt-4">
+                <p *ngIf="person.phone != ''" [class.me-1]="person.phone != ''">{{person.phone}}</p>
+                <p *ngIf="person.email != ''" [class.ms-1]="person.email != ''">{{person.email}}</p>
+            </div>
             <p class="mt-4">{{person.aboutMe}}</p>
         </div>
     </section>
