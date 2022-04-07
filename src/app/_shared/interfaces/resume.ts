@@ -8,6 +8,8 @@ export interface Resume {
     name: string;
     birthDate: Date;
     nationality: string;
+    phone: string;
+    email: string;
     aboutMe: string;
     photo: string;
     role: string;

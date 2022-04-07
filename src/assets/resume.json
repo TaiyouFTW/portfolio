@@ -4,6 +4,8 @@
     "nationality": "Brazil",
     "aboutMe": "A short biography about myself",
     "photo": "https://avatars.githubusercontent.com/u/45464496?v=4",
+    "email": "email@email.com",
+    "phone": "+55 (11) 99999-9999",
     "role": "Web developer",
     "yearsOfExperience": 2,
     "socials": [
@@ -25,7 +27,7 @@
         },
         {
             "name": "Email",
-            "url": "gui.bm.199@gmail.com"
+            "url": "email@email.com"
         },
         {
             "name": "whatsapp",

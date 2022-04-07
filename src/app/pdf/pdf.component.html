@@ -7,6 +7,7 @@
         <div class="col-12 text-center">
             <h1>{{person.name}}</h1>
             <h5>{{person.role}} since {{since | date: 'yyyy'}}</h5>
+            <p class="mt-4" *ngIf="person.phone != '' || person.email != ''">{{person.phone}} {{person.email}}</p>
             <p class="mt-4">{{person.aboutMe}}</p>
         </div>
     </section>
