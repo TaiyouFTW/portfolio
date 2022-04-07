@@ -1,4 +1,4 @@
-<div class="d-inline-flex" *ngFor="let social of socials">
+<div class="d-inline-flex d-print-none" *ngFor="let social of socials">
     <a mat-button class="main-color" href="{{social.name.toLowerCase() == 'email' ? 'mailto:' : ''}}{{social.url}}" target="_blank" rel="noopener noreferrer" matTooltip="{{social.name}}">
         <fa-icon class="icon main-color" [icon]="[social.name.toLowerCase() == 'email' ? 'fas' : 'fab', toLower(social)]" [fixedWidth]="true"></fa-icon>
     </a>
