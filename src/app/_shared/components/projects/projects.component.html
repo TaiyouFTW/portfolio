@@ -1,0 +1,23 @@
+<div class="container-fluid mt-5">
+    <section class="row">
+        <div class="col-12 col-md-6 col-lg-3 mb-5" *ngFor="let project of projects">
+            <div class="border rounded shadow-on-hover p-3">
+                <div class="icon d-flex justify-content-center align-items-center">
+                    <fa-icon [icon]="['fas', 'code']" [size]="'3x'" [fixedWidth]="true"></fa-icon>
+                </div>
+                <div class="name-and-description mt-3">
+                    <h5 class="text-center mb-4">{{project.name}}</h5>
+                    <p class="mb-0">{{project.description}}</p>
+                </div>
+                <div class="d-flex justify-content-around mt-3">
+                    <a href="{{project.url}}" target="_blank" rel="noopener noreferrer" class="main-color" mat-button *ngIf="project.url != ''" matTooltip="website">
+                        <fa-icon [icon]="['fas', 'link']" [fixedWidth]="true"></fa-icon>
+                    </a>
+                    <a href="{{project.repositoryUrl}}" target="_blank" rel="noopener noreferrer" class="main-color" mat-button *ngIf="project.repositoryUrl != ''" matTooltip="repository">
+                        <fa-icon [icon]="['fas', 'code-branch']" [fixedWidth]="true"></fa-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>

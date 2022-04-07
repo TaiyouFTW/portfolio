@@ -1,0 +1,30 @@
+@import "./../../../../colors.scss";
+
+.border {
+    border: 1px solid $grey;
+}
+
+.main-color {
+    color: $main;
+}
+
+.name-and-description {
+    height: 120px;
+}
+
+.icon {
+    height: 80px;
+}
+
+.language-icon {
+    font-family: "Raleway", sans-serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.shadow-on-hover {
+    transition: box-shadow 0.3s;
+}
+.shadow-on-hover:hover {
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}
