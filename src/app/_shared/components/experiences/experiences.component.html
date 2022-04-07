@@ -1,0 +1,11 @@
+<h3>Experiences</h3>
+<mat-divider></mat-divider>
+<div class="container-fluid">
+    <div class="row" *ngFor="let experience of experiences">
+        <div class="col-12 mt-5">
+            <h5>{{experience.companyName}} {{experience.startDate | date:'yyyy'}} - {{experience.untilNow ? 'Present' : experience.endDate | date:'yyyy'}}</h5>
+            <h6>{{experience.jobTitle}}</h6>
+            <p class="ms-3">{{experience.description}}</p>
+        </div>
+    </div>
+</div>
