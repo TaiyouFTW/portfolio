@@ -51,6 +51,7 @@
             ],
             "styles": [
               "./node_modules/bootstrap/scss/bootstrap.scss",
+              "src/colors.scss",
               "src/theme.scss",
               "src/styles.scss"
             ],
