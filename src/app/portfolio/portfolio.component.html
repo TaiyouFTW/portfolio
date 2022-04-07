@@ -19,7 +19,13 @@
         </div>
     </section>
 
-    <div class="row mt-3">
+    <section class="row mt-3">
+        <div class="col-12 d-flex justify-content-center text-center">
+            <app-download-resume [name]="person.name"></app-download-resume>
+        </div>
+    </section>
+
+    <div class="row mt-3" *ngIf="person.projects.length > 0; else dontHaveProjects">
         <div class="col-12">
             <mat-tab-group mat-align-tabs="center" class="main-color">
                 <mat-tab label="Projects">
@@ -31,4 +37,12 @@
             </mat-tab-group>
         </div>
     </div>
+
+    <ng-template #dontHaveProjects>
+        <div class="row mt-3">
+            <div class="col-12">
+                <app-resume [person]="person"></app-resume>
+            </div>
+        </div>
+    </ng-template>
 </div>

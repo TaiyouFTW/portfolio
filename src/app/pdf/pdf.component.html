@@ -1,0 +1,19 @@
+<div class="sticky-top m-3">
+    <button mat-button class="d-print-none" (click)="exportHtmlToPDF()">Generate pdf</button>
+</div>
+
+<div class="container py-5" id="pdf" #pdf>
+    <section class="row mt-3">
+        <div class="col-12 text-center">
+            <h1>{{person.name}}</h1>
+            <h5>{{person.role}} since {{since | date: 'yyyy'}}</h5>
+            <p class="mt-4">{{person.aboutMe}}</p>
+        </div>
+    </section>
+
+    <div class="row mt-3">
+        <div class="col-12">
+            <app-resume [person]="person" [isPdf]="true"></app-resume>
+        </div>
+    </div>
+</div>

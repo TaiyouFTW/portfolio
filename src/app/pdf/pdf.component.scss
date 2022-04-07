@@ -1,0 +1,13 @@
+@import "./../../colors.scss";
+
+h5 {
+    color: $grey;
+}
+
+::ng-deep .mat-tab-group.mat-primary.main-color .mat-ink-bar, .mat-tab-nav-bar.mat-primary.main-color .mat-ink-bar {
+    background-color: $main;
+}
+
+::ng-deep body {
+    background: white !important;
+}

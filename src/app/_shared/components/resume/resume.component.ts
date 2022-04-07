@@ -9,6 +9,7 @@ import { Resume } from '../../interfaces/resume';
 export class ResumeComponent {
 
   @Input() person!: Resume;
+  @Input() isPdf!: Boolean;
 
   constructor() { }
 }

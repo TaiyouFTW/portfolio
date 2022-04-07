@@ -12,8 +12,13 @@
     </section>
 
     <section class="row mt-5">
-        <div class="col-12">
+        <div class="col-12" *ngIf="!isPdf; else pdf">
             <app-skills [skills]="person.skills"></app-skills>
         </div>
+        <ng-template #pdf>
+            <div class="col-12">
+                <app-skills-for-pdf [skills]="person.skills"></app-skills-for-pdf>
+            </div>
+        </ng-template>
     </section>
 </div>

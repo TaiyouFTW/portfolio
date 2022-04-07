@@ -1,0 +1,8 @@
+@import "./../../../../colors.scss";
+
+.main-color-link {
+    color: $grey;
+    &:hover {
+        color: $main;
+    }
+}

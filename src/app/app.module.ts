@@ -21,6 +21,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ResumeComponent } from './_shared/components/resume/resume.component';
 import { ProjectsComponent } from './_shared/components/projects/projects.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { PdfComponent } from './pdf/pdf.component';
+import { SkillsForPdfComponent } from './_shared/components/skills-for-pdf/skills-for-pdf.component';
+import { DownloadResumeComponent } from './_shared/components/download-resume/download-resume.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,10 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     SkillsComponent,
     PortfolioComponent,
     ResumeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    PdfComponent,
+    SkillsForPdfComponent,
+    DownloadResumeComponent
   ],
   imports: [
     BrowserModule,

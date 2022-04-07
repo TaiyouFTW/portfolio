@@ -1,0 +1,25 @@
+<h3>Skills</h3>
+<mat-divider></mat-divider>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 col-lg-4 mt-5" *ngFor="let region of skills">
+            <h6>{{region.type}}</h6>
+            <mat-divider></mat-divider>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-6 mt-3" *ngFor="let area of region.skill">
+                        <div class="d-flex">
+                            <div class="me-3">
+                                <fa-icon class="main-color" [icon]="['fas', 'check']" [fixedWidth]="true"></fa-icon>
+                            </div>
+                            <div>
+                                <p class="mb-0">{{area.name}}</p>
+                                <small>{{area.level}}</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
