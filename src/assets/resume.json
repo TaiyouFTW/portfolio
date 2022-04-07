@@ -1,0 +1,226 @@
+{
+    "name": "Guilherme Moreira",
+    "birthDate": "01/10/1995",
+    "nationality": "Brazil",
+    "aboutMe": "A short biography about myself",
+    "photo": "https://avatars.githubusercontent.com/u/45464496?v=4",
+    "role": "Web developer",
+    "yearsOfExperience": 2,
+    "socials": [
+        {
+            "name": "Github",
+            "url": "https://github.com/TaiyouFTW"
+        },
+        {
+            "name": "Linkedin",
+            "url": "https://github.com/TaiyouFTW"
+        },
+        {
+            "name": "Facebook",
+            "url": "https://github.com/TaiyouFTW"
+        },
+        {
+            "name": "twitter",
+            "url": "https://github.com/TaiyouFTW"
+        },
+        {
+            "name": "Email",
+            "url": "gui.bm.199@gmail.com"
+        },
+        {
+            "name": "whatsapp",
+            "url": "https://wa.me/5511953792958"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Weather",
+            "language": "Angular",
+            "description": "A beautiful way to see weather",
+            "url": "https://taiyouftw.github.io/Weather/home",
+            "repositoryUrl": "https://github.com/TaiyouFTW/Weather"
+        },
+        {
+            "name": "To-do List",
+            "language": ".NET",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore",
+            "url": "https://taiyouftw.github.io/ToDoList/home",
+            "repositoryUrl": "https://github.com/TaiyouFTW/ToDoList"
+        }
+    ],
+    "skills": [
+        {
+            "type": "Frontend",
+            "skill": [
+                {
+                    "name": "HTML 1",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 2",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 3",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 4",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 5",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 6",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        {
+            "type": "Frontend 2",
+            "skill": [
+                {
+                    "name": "HTML 1",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 2",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 3",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 4",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 5",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 6",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        {
+            "type": "Frontend 3",
+            "skill": [
+                {
+                    "name": "HTML 1",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 2",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 3",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 4",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 5",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 6",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        {
+            "type": "Frontend 4",
+            "skill": [
+                {
+                    "name": "HTML 1",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 2",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 3",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 4",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 5",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 6",
+                    "level": "Intermediate"
+                }
+            ]
+        },
+        {
+            "type": "Frontend 5",
+            "skill": [
+                {
+                    "name": "HTML 1",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 2",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 3",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 4",
+                    "level": "Intermediate"
+                },
+                {
+                    "name": "HTML 5",
+                    "level": "Advanced"
+                },
+                {
+                    "name": "CSS 6",
+                    "level": "Intermediate"
+                }
+            ]
+        }
+    ],
+    "experiences": [
+        {
+            "jobTitle": "Web developer",
+            "companyName": "Company",
+            "startDate": "01/10/2021",
+            "endDate": "01/10/2022",
+            "untilNow": false,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+        {
+            "jobTitle": "Web developer 2",
+            "companyName": "New Company",
+            "startDate": "01/10/2022",
+            "endDate": "",
+            "untilNow": true,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ],
+    "education": [
+        {
+            "institution": "University",
+            "course": "Computer Science",
+            "startDate": "01/10/2021",
+            "endDate": "01/10/2022",
+            "untilNow": false,
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        }
+    ]
+}
